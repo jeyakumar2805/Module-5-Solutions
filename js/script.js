@@ -2,8 +2,8 @@
 
 var dc = {};
 var homeHtmlUrl = "./home-snippet.html";
-var allCategoriesUrl = "https://davids-restaurant.herokuapp.com/categories.json";
-var menuItemsUrl = "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
+var allCategoriesUrl = "https://coursera-jhu-default-rtdb.firebaseio.com/categories.json";
+var menuItemsUrl = "https://coursera-jhu-default-rtdb.firebaseio.com/menu_items/";
 
 var insertHtml = function (selector, html) {
   document.querySelector(selector).innerHTML = html;
