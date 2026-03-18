@@ -32,7 +32,7 @@ dc.loadHome = function () {
 };
 
 dc.loadMenuItems = function (categoryShort) {
-  var url = menuItemsUrl + categoryShort;
+  var url = menuItemsUrl + categoryShort + ".json";
 
   $ajaxUtils.sendGetRequest(url, function (data) {
 
